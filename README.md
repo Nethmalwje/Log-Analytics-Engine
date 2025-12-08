@@ -108,7 +108,7 @@ java -Djava.library.path=. -jar target/log-analyzer-0.0.1.jar
 **Request:**
 
 ```http
-POST http://localhost:8080/api/logs/analyze?path=C:/projects/log-engine/huge_test.log
+POST http://localhost:8080/api/logs/analyze?path=
 ```
 
 **Response:**
